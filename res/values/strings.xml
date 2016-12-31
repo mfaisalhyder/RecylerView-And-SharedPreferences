@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Prounounce</string>
+    
+    
+    <!-- <ActionBar Search> -->
+    <string name="action_search">Search</string>
+  
+    <!-- <Navigatin Drawer Items> -->
+    <string name="nav_item_rate_it">Rate App</string>
+    <string name="nav_item_help_developer">Help Development</string>
+    <string name="nav_item_about_us">About Us</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+
+</resources>

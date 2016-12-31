@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    card_view:cardCornerRadius="5dp" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/txtView_iconEntry"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circular_bg"
+            android:text="SA"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtView_Word"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/txtView_iconEntry"
+            android:layout_toLeftOf="@+id/imgButton_Favourite"
+            android:layout_toRightOf="@+id/txtView_iconEntry"
+            android:layout_toStartOf="@+id/imgButton_Favourite"
+            android:gravity="center_vertical"
+            android:text="Abash"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtView_PartOfSpeech"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtView_Word"
+            android:layout_alignStart="@+id/txtView_Word"
+            android:layout_below="@id/txtView_Word"
+            android:layout_toLeftOf="@+id/imgButton_Favourite"
+            android:layout_toStartOf="@+id/imgButton_Favourite"
+            android:text="Verb" />
+
+        <ImageButton
+            android:id="@+id/imgButton_Favourite"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_favourite"
+            android:contentDescription="imageFavorite" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

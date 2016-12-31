@@ -1,0 +1,5 @@
+<resources>
+
+    <style name="MyAppTheme" parent="MyAppTheme.Base"></style>
+
+</resources>
